@@ -1,2 +1,2 @@
 # golang-journey
-A personal journey into mastering Go (Golang) through hands-on labs and projects. This repository contains my explorations, experiments, and learning materials as I dive into the world of Go.
+Este repositório acompanha minha jornada de aprendizado e especialização em Go (Golang), com foco em aprimorar minhas habilidades como SRE e preparar minha transição para a engenharia de plataforma. Por meio de laboratórios e projetos práticos, exploro a linguagem Go e suas aplicações, compartilhando experimentos, soluções e insights adquiridos ao longo do caminho.
