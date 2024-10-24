@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Práticas de operações em Go!
+
 func main()  {
 	x := 12
 	y := "aprendendo go"
