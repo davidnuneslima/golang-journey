@@ -1,0 +1,36 @@
+name: Go CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Verifica o código do repositório
+      - name: Check out code
+        uses: actions/checkout@v3
+        
+      # Configura a versão do Go
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.20'
+
+      # Instala as dependências do projeto
+      - name: Install dependencies
+        run: go mod tidy
+
+      # Executa os testes
+      - name: Run tests
+        run: go test ./...
+
+      # Verifica formatação e lint do código
+      - name: Run gofmt
+        run: go fmt ./...
