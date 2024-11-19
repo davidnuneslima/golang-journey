@@ -4,7 +4,7 @@ import "fmt"
 
 // Práticas de operações em Go!
 
-func main()  {
+func main() {
 	x := 12
 	y := "aprendendo go"
 	fmt.Printf("x: %v, %T\n", x, x)
