@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Meu primeiro programa em  Go: Hello World!
+// Meu primeiro programa em Go: Hello World!
 
 func main() {
 	fmt.Println("Hello, World!")
